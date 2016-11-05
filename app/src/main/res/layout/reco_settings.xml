@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/recoSettings"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="@string/settings"/>
+
+
+    <LinearLayout android:id="@+id/layout_settings_recoonly"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/recoRecoonly"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/settings_recoonly"/>
+
+        <TextView android:id="@+id/recoRecoonlySetting"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="17sp"
+            android:text="@string/settings_result_false"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/settings_discontinouos"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/recoDiscontinouos"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/settings_discontinouos"/>
+
+        <TextView android:id="@+id/recoDiscontinouosSetting"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="17sp"
+            android:text="@string/settings_result_false"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/settings_backgroundtimeout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/recoBackgroundtimeout"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/settings_backgroundtimeout"/>
+
+        <TextView android:id="@+id/recoBackgroundtimeoutSetting"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="17sp"
+            android:text="@string/settings_result_false"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
